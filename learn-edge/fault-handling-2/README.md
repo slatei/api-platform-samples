@@ -3,7 +3,7 @@
 In this Learn Edge example, we illustrate that Fault Rules have a specific order in which they execute:
 
 * When the fault rule is in the Proxy Endpoint, Edge evaluates the fault rules BOTTOM to TOP (physically in the XML block), and the **first** fault rule that evaluates to **true** in a chain of rules is the one that executes. 
-* When the fault rule is in the Target Endpoint, Edge evaluates the fault rules TOP to BOTTOM (physically in the XML block), the **first** fault rule that evaluates to **true** exectues. 
+* When the fault rule is in the Target Endpoint, Edge evaluates the fault rules TOP to BOTTOM (physically in the XML block), the **first** fault rule that evaluates to **true** executes. 
 
 This is an important pattern that trips up a lot of new Apigee Edge developers. This example builds on the example in [fault-handling-1](../fault-handling-1/README.md).
 
